@@ -1,0 +1,20 @@
+21CE1392
+B2'''
+
+
+a = int (input("Enter your number: "))
+print(a)
+b = int (input("Enter your number: "))
+print(b)
+temp=a
+a=b
+b=temp
+print("a=",a)
+print("b=",b)
+if a < 0:
+  print("the number is negative ")
+elif a== 0:
+    print(" the number iszero")
+else:
+    print(" the number is positive")
+        
